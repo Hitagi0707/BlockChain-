@@ -11,9 +11,10 @@
 由于课程信息已经爬好并存储成txt文件，所以默认直接从本地读取课程信息；
 要想直接从爬虫开始运行程序，只需将mainBC文件中24～26三行取消注释，并把后面29～44行注释即可，如下所示：
 
-//		ArrayList<String> courseList = new ArrayList<String>();
-//		CrList cr= new CrList();
-//		cr.crawl(courseList);
+	//	启动爬虫从中国大学MOOC网抓取课程信息
+		ArrayList<String> courseList = new ArrayList<String>();
+		CrList cr= new CrList();
+		cr.crawl(courseList);
   
   	// 直接从本地读取爬好的课程txt文件,载入到courseList中
 		ArrayList<String> courseList = new ArrayList<>();
