@@ -35,5 +35,7 @@
 		}
  
  爬虫情况截图：
+ ![Image text](https://github.com/Hitagi0707/BlockChain-/blob/master/1.png)
+ ![Image text](https://github.com/Hitagi0707/BlockChain-/blob/master/2.png)
  
-  
+ 
